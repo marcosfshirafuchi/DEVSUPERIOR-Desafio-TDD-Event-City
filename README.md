@@ -1,4 +1,3 @@
-# DEVSUPERIOR-Desafio-TDD-Event-City
 # <a href="https://imgbb.com/"><img src="https://i.ibb.co/51bfmLv/image-2024-07-01-T11-45-10-371-Z.png" alt="image-2024-07-01-T11-45-10-371-Z" border="0" width="300"></a> Java Spring Expert - Desafio 01
 
 #### Desenvolvido na linguagem Java por:
