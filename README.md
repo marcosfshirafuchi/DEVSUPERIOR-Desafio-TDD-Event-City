@@ -23,3 +23,28 @@ O projeto foi desenvolvido na aula do curso Java Spring Expert - Capítulo: "Tes
 - <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original-wordmark.svg" title = "Spring Data JPA"/>  Spring Data JPA: Exploraremos como essa ferramenta pode simplificar nossa camada de acesso aos dados, facilitando a integração com bancos de dados SQL;
 - <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqldeveloper/sqldeveloper-original.svg" title = "H2 Database"/> H2 Database: Banco de dados SQL em memória.
 - <img width="100px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-plain-wordmark.svg" /> Postman: Para testar os métodos http do controller.
+
+
+## Critérios de correção:
+### Mínimo para aprovação: 6 de 7
+- DELETE /cities/{id} deve retornar 404 Not Found quando id não existir
+
+- DELETE /cities/{id} deve retornar 204 No Content quando id for independente
+
+- DELETE /cities/{id} deve retornar 400 Bad Request quando id for dependente
+
+- POST /cities deve inserir recurso
+
+- GET /cities deve retornar recursos ordenados por nome
+
+- PUT /events deve atualizar recurso quando id existir
+
+- PUT /events deve retornar 404 Not Found quando id não existir
+
+## Competências avaliadas:
+
+- Desenvolvimento TDD de API Rest com Java e Spring Boot
+
+- Implementação de cenários de busca, inserção, deleção e atualização
+
+- Tratamento de exceções em API com respostas HTTP customizadas
